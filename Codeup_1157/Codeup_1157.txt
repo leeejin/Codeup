@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	double m;
+	cin>>m;
+	if(m>=50 &&m<=60) cout<<"win"<<"\n";
+	else cout<<"lose"<<"\n";
+	return 0;
+}
